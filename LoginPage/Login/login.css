@@ -1,0 +1,76 @@
+body {
+  font-family: Montserrat;
+  background: linear-gradient(to left, #6441a5, #c2185b);
+}
+
+.login-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px #888888;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="email"], input[type="password"], input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background: linear-gradient(to right, #6441a5, #c2185b);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(to left, #6441a5, #c2185b);
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  color: #777777;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.forgot-password:hover {
+  color: black;
+  cursor: pointer;
+}
+
+p{
+  margin-top: 50px;
+  text-align: center;
+  color: #777777;
+}
+
+p:hover {
+  color: black;
+  cursor: pointer;
+}
